@@ -1,0 +1,8 @@
+<header>
+  <h1>Header!</h1>
+  <nav>
+    <% for(let page of pages){%>
+      <a href="/<%= page.filename %>"><%= page.title%></a>
+    <% } %>
+  </nav>
+</header>
